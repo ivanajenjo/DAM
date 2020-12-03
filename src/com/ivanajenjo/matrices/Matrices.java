@@ -5,6 +5,7 @@ public class Matrices {
     public static void main(String[] args) {
         int[][] matriz1 = {{1,2,3},{4,5,6},{7,8,9}};
         int[][] simetrica = {{1,2,3},{2,1,3},{3,3,1}};
+        printMatrix(matriz1);
         int[][] ejercicio2 = traspuesta(matriz1);
         printMatrix(ejercicio2);
         System.out.println(esSimetrica(matriz1));
